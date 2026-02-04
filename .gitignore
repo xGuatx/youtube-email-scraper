@@ -1,0 +1,77 @@
+# Credentials et secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+id_rsa
+id_ed25519
+.credentials.json
+auth.json
+.passwords.txt
+.cache-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+target/
+out/
+
+# Docker
+.dockerignore
+
+# Certificates
+certs/
+*.crt
+*.pem
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# Scraped Data (emails, output files)
+emails.txt
+*_emails.txt
+emails_youtube*.json
+emails_youtube*.csv
+output/
+results/
+scraped_*.txt
+
+# Claude Code
+.claude/
+.claude.json
